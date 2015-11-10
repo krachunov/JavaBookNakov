@@ -10,10 +10,13 @@ public class Zad10 {
 		int x = scn.nextInt();
 
 		int array[][] = new int[x][x];
-
-		for (int i = 1; i < x; i++) {
-			for (int j = i; j < x; j++) {
-				array[i][j] = j;
+		int count = 0;
+		for (int i = 0; i < x; i++) {
+			count++;
+			int count2 = count;
+			for (int j = 0; j < x; j++) {
+				array[i][j] = count2;
+				count2++;
 			}
 		}
 		for (int i = 0; i < array.length; i++) {
