@@ -6,15 +6,15 @@ public class loop {
 			return;
 		}
 		for (int i = 0; i < 3; i++) {
-			System.out.println(i);
+			System.out.print(i);
 			
-//			loop(count + 1);
+			loop(count + 1);
 		}
 		System.out.println();
 	}
 
 	public static void main(String[] args) {
-		loop(0);
+		loop(1);
 
 	}
 
