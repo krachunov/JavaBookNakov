@@ -19,7 +19,7 @@ public class Zad02_NumberOfIndex {
 	}
 
 	public static void main(String[] args) {
-		String text = "We are living in a yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.";
+		String text = "We are living in a yellow submarine. We don't have yellow anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.";
 
 		numberOFIndex(text, "yellow");
 	}
